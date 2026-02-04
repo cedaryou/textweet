@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Processed messages cache
+.processed-messages.json
+
+# Temporary converted images
+.temp-images/
+
+# Claude Code files (personal notes)
+.claude/
+
+# Helper scripts (not needed for production)
+find-contacts.js

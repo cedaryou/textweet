@@ -1,0 +1,32 @@
+{
+  "name": "textweet",
+  "version": "1.0.0",
+  "description": "iMessage to X (Twitter) automation tool - automatically post iMessages to X with image support",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "imessage",
+    "twitter",
+    "x",
+    "automation",
+    "daemon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.2.0",
+    "better-sqlite3": "^12.6.2",
+    "dotenv": "^17.2.3",
+    "heic-convert": "^2.1.0",
+    "tsx": "^4.21.0",
+    "twitter-api-v2": "^1.29.0",
+    "typescript": "^5.9.3"
+  }
+}
