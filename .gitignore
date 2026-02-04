@@ -29,3 +29,6 @@ npm-debug.log*
 
 # Helper scripts (not needed for production)
 find-contacts.js
+
+# R history (if accidentally created)
+.Rhistory
